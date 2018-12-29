@@ -2,6 +2,7 @@ package com.MavenTestNG;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class BaseClass {
@@ -16,6 +17,9 @@ public class BaseClass {
 		System.out.println("This is my Maven TestNG Project");
 	}
 	
+	public void failThis () {
+		Assert.assertEquals(12, 13);
+	}
 	
 
 }
