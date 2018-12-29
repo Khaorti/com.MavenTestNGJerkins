@@ -13,7 +13,7 @@ public class BaseClass {
 		driver.get("https://www.google.com/");
 		
 		
-		
+		System.out.println("This is my Maven TestNG Project");
 	}
 	
 	
